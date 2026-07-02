@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class pattern23{
+    public static void main(String[] args) {
+        int ip = 7;
+        for(int i=1;i<=ip;i++){
+            for(int j=1;j<=ip;j++){
+                if(i==1 || i==ip || j==1 || j==ip)
+                    System.out.print("* ");
+                else
+                    System.out.print("  ");
+            }
+            System.out.println();
+        }
+    }
+}
